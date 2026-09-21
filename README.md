@@ -87,3 +87,173 @@ this is for educational purposes
 
     </div>
 </section>
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f8f3e6;
+  color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #3f5139;
+  padding: 12px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #d9dfc8;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  max-width: 700px;
+}
+
+.hero h2 {
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3f5139;
+  color: white;
+  cursor: pointer;
+}
+
+.hero button:hover {
+  background-color: #2f3f2b;
+}
+
+/* ===== ABOUT SECTION ===== */
+.about {
+  padding: 70px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.about-content h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #3f5139;
+}
+
+.about-content p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* ===== STORIES SECTION ===== */
+.stories {
+  padding: 70px 60px;
+  text-align: center;
+}
+
+.stories h2 {
+  font-size: 35px;
+  color: #3f5139;
+}
+
+.section-description {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+/* STORY GRID */
+.story-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  text-align: left;
+}
+
+/* STORY CARD */
+.story-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.story-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.story-card h3 {
+  font-size: 21px;
+  margin: 20px 20px 10px;
+  color: #3f5139;
+}
+
+.story-card p {
+  line-height: 1.5;
+  margin: 0 20px 20px;
+}
+
+.story-card button {
+  margin: 0 20px 20px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  background-color: #3f5139;
+  color: white;
+  cursor: pointer;
+}
+
+.story-card button:hover {
+  background-color: #293721;
+}
+
+
